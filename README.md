@@ -1,1 +1,49 @@
-# Toronto-housing-forecasting
+# 🏠 Toronto Housing Market Forecasting
+
+## 🎯 Objective
+Forecast the average home prices and number of home sales in the City of Toronto using historical data and time-series modeling techniques. The goal is to support better planning and decision-making in the real estate sector by understanding housing trends.
+
+## 📊 Dataset
+- **Source:** Toronto Regional Real Estate Board (TRREB)
+- **Time Range:** January 2000 – December 2024
+- **Features:** Monthly average home prices, number of home sales
+
+## 🧠 Approach
+This project involved building a full end-to-end time series forecasting pipeline:
+
+- Conducted **exploratory data analysis (EDA)** to understand seasonality, trends, and anomalies
+- Tested for **stationarity** using ADF and KPSS tests
+- Performed **differencing** and **log transformations** to stabilize variance
+- Evaluated multiple models:  
+  - **Exponential Smoothing**  
+  - **AR**  
+  - **ARIMA**  
+  - **SARIMA** (Selected final model)
+- Performed **forecasting** through 2024 using best-fit SARIMA model
+- Assessed model performance using metrics such as **RMSE** and visual inspection of residuals
+
+## 📈 Results
+- **Best Model:** SARIMA  
+- **Forecast Accuracy:** RMSE of [Insert Value] for prices and [Insert Value] for sales on test set  
+- Captured key seasonal patterns and long-term upward trends  
+- Generated reliable forecasts to inform housing affordability and investment planning
+
+![Forecast Plot](images/forecast_plot.png)
+
+## 🛠 Tools Used
+`Python` · `Pandas` · `Matplotlib` · `Seaborn` · `Statsmodels` · `pmdarima` · `Jupyter Notebook`
+
+## 💡 Lessons Learned
+- Importance of checking and ensuring stationarity before modeling
+- SARIMA's power in modeling seasonal and non-stationary series
+- Interpreting residuals and forecast intervals for trustable predictions
+- Visualization is key in communicating time-series insights
+
+## 📎 References
+- Toronto Regional Real Estate Board (TRREB)
+- [pmdarima Documentation](https://alkaline-ml.com/pmdarima/)
+- Forecasting Principles and Practice by Rob J Hyndman
+
+---
+
+📁 *Check out the full code and notebook in this repository!*
