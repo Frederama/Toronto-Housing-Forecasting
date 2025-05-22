@@ -24,7 +24,7 @@ This project involved building a full end-to-end time series forecasting pipelin
 
 ## 📈 Results
 - **Best Model:** SARIMA  
-- **Forecast Accuracy:** RMSE of [Insert Value] for prices and [Insert Value] for sales on test set  
+- **Forecast Accuracy:** MAPE of 5.19% for prices and 37.87% for sales on test set  
 - Captured key seasonal patterns and long-term upward trends  
 - Generated reliable forecasts to inform housing affordability and investment planning
 
