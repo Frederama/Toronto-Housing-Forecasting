@@ -28,16 +28,8 @@ This project involved building a full end-to-end time series forecasting pipelin
 - Captured key seasonal patterns and long-term upward trends  
 - Generated reliable forecasts to inform housing affordability and investment planning
 
-![Forecast Plot](images/forecast_plot.png)
-
 ## 🛠 Tools Used
 `Python` · `Pandas` · `Matplotlib` · `Seaborn` · `Statsmodels` · `pmdarima` · `Jupyter Notebook`
-
-## 💡 Lessons Learned
-- Importance of checking and ensuring stationarity before modeling
-- SARIMA's power in modeling seasonal and non-stationary series
-- Interpreting residuals and forecast intervals for trustable predictions
-- Visualization is key in communicating time-series insights
 
 ## 📎 References
 - Toronto Regional Real Estate Board (TRREB)
